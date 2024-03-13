@@ -1,0 +1,45 @@
+/* components/header/header.css */
+.header {
+    
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+  height: 160px;
+  width:1920px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #6B90BF 60%, #8593A6 60%, #8593A6 80%, #324359 80%);
+
+
+  padding: 20px;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color:#fff;
+}
+
+/* Add additional styling as needed */

@@ -1,0 +1,122 @@
+.layout-container {
+  text-align: center;
+  display: flex;
+  height: 20px;
+  flex-direction: row;
+  flex-wrap: wrap; 
+}
+
+.left-half {
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: -40px;
+  margin-top: 10px;
+}
+.bar {
+  justify-content: center;
+  display: flex;
+  padding-right: 50px;
+}
+
+.box{
+  width: 180px;
+  text-align: center;
+  padding: 1px;
+  border: 6px solid rgb(178, 177, 177);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-self: center;
+  align-items: center;
+  background-color: rgb(175, 75, 75);
+  height: 4.7cm;
+  margin: 12px;
+  }
+
+.right-half {
+  flex:1;
+  padding-right: 50px; /* Add padding to the right side */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100px;
+  height: 500px;
+  margin: -15px 20px;
+  
+}
+.name{
+  display: flex;
+}
+
+
+.name .about {
+  padding-left: 20px;
+  font-size: 20px;
+  margin-top: 1px;
+}
+.para {
+  padding-bottom: 30px;
+}
+
+.textarea {
+  width: 500px;
+  height: 80%;
+  /* margin-top: 10%; */
+  border-radius: 20px;
+  resize: none;
+  /* padding-right: 5px; */
+  background-color: rgba(133, 135, 168, 0.998);
+  color: aliceblue;
+  text-align: left;
+  font-weight: 700;
+  padding: 15px;
+  margin: 28px;
+  padding-bottom: 40px;
+}
+
+.para {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .Slides {
+  flex-direction: column;
+  align-items: center;
+  display: grid; /* Added display grid */
+  grid-template-columns: repeat(3, 1fr); /* 3 columns for desktop */
+  grid-template-rows: repeat(2, 1fr); /* 2 rows for desktop */
+  gap: 10px;
+
+
+
+  }
+  .box{
+  box-sizing: border-box;
+  margin: 15px; /* Add margin for gap between slides */
+  background-color: #b85b66;
+  border: 6px solid #d9d4d4;
+  border-radius: 5px;
+  flex-direction: column;
+  height: 212px;
+  
+  }
+  
+
+  .box {
+    width: 282px;
+
+    height: 456px;
+  }
+  .main{
+    flex-direction: column;
+  }
+}
+
+.database-icon h6{
+  padding-left: 20px;
+}

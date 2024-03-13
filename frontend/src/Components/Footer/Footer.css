@@ -1,0 +1,28 @@
+.footer{
+  text-align: center;
+  width:1920px;
+  height:80px;
+  margin-top: -10px;
+  padding: 7px;
+  background-color:#8593A6;
+  color: #fff;
+}
+
+.footer1{
+  background-color: #324359;
+  margin-top: -20px;
+  padding: 0px;
+  color: #ffffff;
+  width:1920px;
+  height:40px;
+  text-align: center;
+  
+}
+
+.github-logo{
+  text-align: right;
+  color: #333;
+
+  margin-top: 5px;
+  margin-left: 15px;
+}
